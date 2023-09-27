@@ -906,7 +906,7 @@
             },
             "id": "02776c6a-6a48-47ec-bedb-88730a7b228f",
             "source": {
-              "x": 490,
+              "x": 420,
               "y": 10
             },
             "target": {
@@ -1061,15 +1061,15 @@
           {
             "position": {
               "x": 274,
-              "y": -30
+              "y": -29.99999999999998
             },
             "size": {
-              "width": 200,
-              "height": 80
+              "width": 130,
+              "height": 70
             },
             "attrs": {
               "text": {
-                "text": "Data / Management API"
+                "text": "Data  API"
               },
               "body": {
                 "stroke": "#333333",
@@ -1083,7 +1083,7 @@
             "zIndex": 15,
             "data": {
               "type": "tm.Actor",
-              "name": "Data / Management API",
+              "name": "Data  API",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
