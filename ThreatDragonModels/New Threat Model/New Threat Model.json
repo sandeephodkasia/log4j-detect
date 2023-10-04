@@ -32,8 +32,8 @@
                 "text": ""
               }
             },
-            "id": "1b44cdd1-c6cf-479a-9ee5-bff8e9c95d46",
             "zIndex": -1,
+            "id": "1b44cdd1-c6cf-479a-9ee5-bff8e9c95d46",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "",
@@ -57,8 +57,8 @@
                 "text": "Internal / 19980, 19991, 19998, 19989"
               }
             },
-            "id": "7f025c2c-144f-4408-bdda-8a7b66d75fef",
             "zIndex": -1,
+            "id": "7f025c2c-144f-4408-bdda-8a7b66d75fef",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Internal / 19980, 19991, 19998, 19989",
@@ -82,8 +82,8 @@
                 "text": "External / HTTPS"
               }
             },
-            "id": "c9983523-d5ad-49a4-a705-70fe963d12d4",
             "zIndex": -1,
+            "id": "c9983523-d5ad-49a4-a705-70fe963d12d4",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "External / HTTPS",
@@ -908,6 +908,9 @@
               "hasOpenThreats": false
             },
             "id": "99edc2ae-441a-4a69-94d2-9248ddfb0276",
+            "labels": [
+              ""
+            ],
             "source": {
               "x": 730,
               "y": -790
@@ -921,9 +924,6 @@
                 "x": 630,
                 "y": -620
               }
-            ],
-            "labels": [
-              ""
             ]
           },
           {
@@ -1030,6 +1030,9 @@
               "threats": []
             },
             "id": "d536390e-751a-4a70-b2c9-ed7a55c0aa37",
+            "labels": [
+              "Call BFF Layer"
+            ],
             "source": {
               "cell": "aa03d784-c2ab-4ebc-8765-58cb425f199f"
             },
@@ -1041,9 +1044,6 @@
                 "x": -103.75,
                 "y": -40
               }
-            ],
-            "labels": [
-              "Call BFF Layer"
             ]
           },
           {
@@ -1078,16 +1078,16 @@
               "threats": []
             },
             "id": "a2f846fc-2c49-4ecb-a529-a81201112ad9",
+            "labels": [
+              "BFF Call data api"
+            ],
             "source": {
               "cell": "40f44d7b-5675-43c5-91d9-4f94e16f78bc"
             },
             "target": {
               "cell": "7746679c-3362-47ba-a6bf-19d7ae46caeb"
             },
-            "vertices": [],
-            "labels": [
-              "BFF Call data api"
-            ]
+            "vertices": []
           },
           {
             "shape": "flow",
@@ -1162,6 +1162,9 @@
               "hasOpenThreats": false
             },
             "id": "f0245c1d-dc56-400c-afec-2dac555fa582",
+            "labels": [
+              ""
+            ],
             "source": {
               "x": 190,
               "y": -680
@@ -1179,9 +1182,6 @@
                 "x": 460,
                 "y": -400
               }
-            ],
-            "labels": [
-              ""
             ]
           },
           {
@@ -1309,6 +1309,9 @@
               "threats": []
             },
             "id": "16a3300d-da7d-492f-b19e-786dc7e6efba",
+            "labels": [
+              "Perform Vault CRUD operations"
+            ],
             "source": {
               "cell": "565a995d-48c7-49ab-9f5c-77e803a9b633"
             },
@@ -1320,9 +1323,6 @@
                 "x": 430,
                 "y": 50
               }
-            ],
-            "labels": [
-              "Perform Vault CRUD operations"
             ]
           },
           {
@@ -1357,15 +1357,15 @@
               "threats": []
             },
             "id": "b6aa5259-73bd-4f61-8148-7dd4ae4b897a",
+            "labels": [
+              "User call data API"
+            ],
             "source": {
               "cell": "5a2212da-588c-4baa-a67e-581504c63bd5"
             },
             "target": {
               "cell": "7746679c-3362-47ba-a6bf-19d7ae46caeb"
-            },
-            "labels": [
-              "User call data API"
-            ]
+            }
           },
           {
             "shape": "flow",
@@ -1399,16 +1399,16 @@
               "threats": []
             },
             "id": "270c3143-eb67-4c8f-a547-6eed87c5efdb",
+            "labels": [
+              "User call Studio UI"
+            ],
             "source": {
               "x": -590,
               "y": -120
             },
             "target": {
               "cell": "aa03d784-c2ab-4ebc-8765-58cb425f199f"
-            },
-            "labels": [
-              "User call Studio UI"
-            ]
+            }
           },
           {
             "shape": "flow",
@@ -1442,16 +1442,16 @@
               "threats": []
             },
             "id": "b55390d8-1923-4c2a-97db-792088bf0281",
+            "labels": [
+              "User call Vault API"
+            ],
             "source": {
               "x": -590,
               "y": -95
             },
             "target": {
               "cell": "9a7e3e25-b917-4da5-b127-694f4e2c32de"
-            },
-            "labels": [
-              "User call Vault API"
-            ]
+            }
           },
           {
             "shape": "trust-broundary-curve",
